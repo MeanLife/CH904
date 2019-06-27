@@ -59,7 +59,7 @@ int main(int argc, char *argv[])
 
 	qDebug() << "Write By JZQ!" << endl;
 	//自动排版：ctrl+k+F
-
+	//再次测试。
 	return a.exec();
 }
 
