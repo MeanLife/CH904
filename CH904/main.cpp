@@ -1,7 +1,7 @@
 #include <QtCore/QCoreApplication>
 #include <QStringList>
 #include <QDir>
-#include <QtDebug>
+#include <QDebug>
 
 qint64 du(const QString &path)
 {
@@ -57,5 +57,9 @@ int main(int argc, char *argv[])
 
 	du(path);
 
+	qDebug() << "Write By JZQ!" << endl;
+	//×Ô¶¯ÅÅ°æ£ºctrl+k+F
+
 	return a.exec();
 }
+
