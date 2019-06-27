@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
 	du(path);
 
 	qDebug() << "Write By JZQ!" << endl;
-	//�Զ��Ű棺ctrl+k+F
+	//自动排版：ctrl+k+F
 
 	return a.exec();
 }
